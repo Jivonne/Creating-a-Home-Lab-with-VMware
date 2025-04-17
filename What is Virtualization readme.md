@@ -57,3 +57,15 @@ Here are some key advantages of using virtualization:
 - **🧪 Better Testing and Performance:** Simplifies testing and reverting changes with snapshots.
 - **🔑 Licensing Benefits:** Consolidates licensing costs by reducing the number of physical machines.
 ---
+
+# Limitations of Virtualization
+
+* **Performance Overhead** ⏳: Virtual machines can experience slower performance compared to running directly on physical hardware due to resource sharing.
+* **Resource Contention** 🤼: Multiple VMs on the same physical machine compete for CPU, memory, and storage, potentially leading to performance degradation.
+* **Complex Management** ⚙️: Managing many virtual machines can be complex, requiring specialized tools and expertise.
+* **Security Risks** 🛡️: Virtualization introduces additional security concerns, such as vulnerabilities in the hypervisor and VM escape.
+* **Licensing Costs** 💰: High licensing fees for virtualization software and operating systems for each VM.
+* **Limited Hardware Access** 🔩: Some advanced hardware features may not be fully supported in virtualized environments.
+* **Increased Resource Demand** 📈: Running VMs requires powerful hardware, leading to higher infrastructure costs.
+
+---
